@@ -135,6 +135,22 @@ h1{
 footer{
     text-align: center;
 }
+nav li a:hover{
+    color: var(--Softred);
+}
+h5:hover,h3:hover{
+    color: var(--Softorange);
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(106, 104, 104);
+}
 @media screen  and (min-width:760px){
     body{
         position: absolute;
@@ -203,5 +219,9 @@ footer{
     }
     footer{
         grid-column: 1/4;
+    }
+    h4{
+        font-size: 2rem;
+        font-weight: bold;
     }
 }
